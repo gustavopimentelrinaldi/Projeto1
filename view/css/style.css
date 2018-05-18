@@ -37,7 +37,7 @@ label{
 	margin:0;
 }
 /*-----start-header----*/
-#flipkart-navbar {
+nav {
     background-color: #2874f0;
     color: #FFFFFF;
 }
@@ -46,7 +46,7 @@ label{
 	padding: 15px 0 10px 0;
 }
 
-.flipkart-navbar-input {
+nav input {
     padding: 11px 16px;
     border-radius: 2px 0 0 2px;
     border: 0 none;
@@ -55,7 +55,7 @@ label{
 	color: #444;
 }
 
-.flipkart-navbar-button {
+.nav-button {
     background-color: #ffe11b;
     border: 1px solid #ffe11b;
     border-radius: 0 2px 2px 0;
@@ -424,6 +424,10 @@ label{
 	border: 1px solid #DBDFE6;
 }
 
+.preview{
+	padding: 2em;
+}
+
 #portfoliolist .portfolio-preview {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -676,10 +680,7 @@ label{
 	width: 80px!important;
 	text-align: center;
 }
-.labelTop.confirmpass {
-	line-height: 1;
-	margin-top: -4px;
-}
+
 .sign-up{
 	border: 1px solid #D6D6D6;
 	border-left:none;
@@ -718,32 +719,19 @@ label{
 	padding: 2em 0 0 0;
 	min-height: 480px;
 	width: 38%;
+	text-align: center;
+	margin: 0 auto;
 }
-.botton1 {
-	margin-right: 5.8em;
-	margin-top:1.5em;
-}
-.labelTop {
-	display: block;
-	font-weight: bold;
-	text-align: left;
-	color: #444;
-	float: left;
-	width: 29%;
+.button1 {
+	text-align: center;
+	margin-top: 1em;
 }
 
-.checkbox {
-	font-size: 0.85em;
-	margin-top: 0px;
+.require{
+	color: red;
 }
-.checkbox input[type="checkbox"]{
-	float: left;
-	margin-left: 116px;
-	margin-right: -105px;
-}
-section#main {
-	margin: 0 0 5em 0;
-}
+
+
 ul.breadcrumbs{
 	padding:0;
 	list-style:none;

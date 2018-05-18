@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Edita produto</title>
+<title>Cadastrar produto</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <script src="js/jquery.min.js"></script>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -11,28 +11,24 @@
 
 	<div class="container">
 		<div class="dreamcrub">
-		<ul class="breadcrumbs">
-			<li class="home">
-				<a href="index.html" title="Go to Home Page"><img src="images/home.png" alt=""/></a>&nbsp;
-			</li>
-			<li>Editar</li>
-		</ul>
-		<ul class="previous">
-			<li><a href="index.html">Voltar</a></li>
-		</ul>
-		<div class="clearfix"></div>
+			<ul class="breadcrumbs">
+				<li class="home">
+					<a href="index.html" title="Go to Home Page"><img src="images/home.png" alt=""/></a>&nbsp;
+				</li>
+				<li>Cadastrar</li>
+			</ul>
+			<ul class="previous">
+				<li><a href="index.php">Voltar</a></li>
+			</ul>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 
 	<div class="container">
 		<div class="edita">				
 			<div class="edita-form">
-				<h2>Editar Produto</h2>
-				<form method="post" action="index.html">
-					<div>
-						<span><label>id</label></span>
-						<span><input name="idProduto" value="1" disabled/></span>
-					</div>
+				<h2>Cadastrar produto</h2>
+				<form method="post" action="edita-post.html">
 					<div>
 						<span><label>Nome</label></span>
 						<span><input name="userName" type="text" class="textbox"></span>
@@ -46,11 +42,11 @@
 						<span><input name="userPhone" type="text" class="textbox"></span>
 					</div>
 				<div>
-						<span><input type="submit" class="" value="Submit us"></span>
+						<span><input type="submit" class="" value="Cadastrar"></span>
 				</div>
 				</form>
 			</div>
-			<div class="clearfix"></div>		
+		<div class="clearfix"></div>		
 		</div>
 	</div>
 
