@@ -18,7 +18,7 @@
 			<li>Editar</li>
 		</ul>
 		<ul class="previous">
-			<li><a href="index.php">Voltar</a></li>
+			<li><a href="painel.php">Voltar</a></li>
 		</ul>
 		<div class="clearfix"></div>
 		</div>
