@@ -1,3 +1,7 @@
+<?php 
+	$login = isset($_GET['login']) ? $_GET['login'] : 0;
+	$logout = isset($_GET['logout']) ? $_GET['logout'] : 0;
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,6 +44,7 @@
 
 	<section class="produtos">
 		<div class="container">
+			<?php include('../controller/alert_controller.php'); ?>
 			<div class="products-section-head text-center">
 				<h3><span>P</span>eças</h3>
 				<p>“Conferir estoque”</p>

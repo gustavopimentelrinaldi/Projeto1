@@ -1,5 +1,7 @@
 <?php
 	session_start();
+	$login = isset($_GET['login']) ? $_GET['login'] : 0;
+	$logout = isset($_GET['logout']) ? $_GET['logout'] : 0;
 ?>
 <html lang="pt">
 	<head>
@@ -19,13 +21,15 @@
 		        <a class="p-2 text-dark" href="#"><?php echo $_SESSION['user_cpf']; ?></a>
 		        <a class="p-2 text-dark" href="#"><?php echo $_SESSION['user_email']; ?></a>
 		      </nav>
-		      <a class="btn btn-outline-primary" href="cadastraProduto.php">Cadastrar Produto</a>
+		      <a class="btn btn-outline-primary mr-2" href="cadastraProduto.php">Cadastrar Produto</a>
+		      <a class="btn btn-outline-danger" href="../controller/logout_controller.php" name="logout">Sair</a>
 		    </div>
 	    </div>
 		</nav>
   
 		<section class="list">
 	    <div class="container">
+	    	<?php include('../controller/alert_controller.php'); ?>
 	    	<div class="row">
 		      <div class="card-deck mb-3 text-center">
 		        <div class="card mb-4 box-shadow">

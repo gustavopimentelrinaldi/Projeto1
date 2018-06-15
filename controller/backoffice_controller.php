@@ -28,5 +28,5 @@
 	$_SESSION['user_name'] = $user['nome'];
 	$_SESSION['user_email'] = $user['email'];
 	$_SESSION['user_cpf'] = $user['cpf'];
-	header('Location: ../view/painel.php');
+	header('Location: ../view/painel.php?login=1');
 ?>

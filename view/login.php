@@ -49,7 +49,7 @@
 							</label><br><br>
 							<input type="password" name="senha" value="" placeholder="sua senha">
 							<div class="button1">
-								<button type="submit" id="senha" class="botton">Entrar</button>
+								<button type="submit" id="login" class="botton" name="login">Entrar</button>
 							</div>
 							<?php
 								if($erro == 1){
