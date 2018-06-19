@@ -1,7 +1,7 @@
 <?php
 	require '../model/initProduct.php';
 	$PDO = db_connect();
-	$sql = "SELECT id, nome, valor, descricao, estoque FROM product";
+	$sql = "SELECT * FROM product";
 	$stmt = $PDO->prepare($sql);
 	$stmt->execute();
 
@@ -14,4 +14,5 @@
 	$product_nome = $product['nome'];
 	$product_valor = $product['valor'];
 	$product_descricao = $product['descricao'];
+	$product_imagem = $product['imagem'];
 ?>

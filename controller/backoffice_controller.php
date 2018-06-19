@@ -16,7 +16,7 @@
 	$users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 	if(count($users) <= 0 ){
-		header('Location: ../view/index.php?erro=1');
+		header('Location: ../view/login.php?erro=1');
 		exit;
 	}
 
