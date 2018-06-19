@@ -4,6 +4,8 @@
 	$login = isset($_GET['login']) ? $_GET['login'] : 0;
 	$logout = isset($_GET['logout']) ? $_GET['logout'] : 0;
 	$create = isset($_GET['create']) ? $_GET['create'] : 0;
+	$update = isset($_GET['update']) ? $_GET['update'] : 0;
+	$delete = isset($_GET['delete']) ? $_GET['delete'] : 0;
 ?>
 <!DOCTYPE html>
 <html>

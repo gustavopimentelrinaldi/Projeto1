@@ -27,9 +27,9 @@
     <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
     <h1 class="h3 mb-3 font-weight-normal">Cadastrar produto</h1>
     <label for="nome">Nome</label>
-    <input type="text" id="nome" name="nome" class="form-control" placeholder="Email address">
+    <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome">
     <label for="valor" class="mt-2">Valor</label>
-    <input type="text" id="valor" name="valor" class="form-control" placeholder="Password">
+    <input type="text" id="valor" name="valor" class="form-control" placeholder="Preço">
     <label for="descricao" class="mt-2">Descrição</label>
     <input type="text" id="descricao" name="descricao" class="form-control" placeholder="Descrição">
     <label for="estoque" class="mt-2">Quantidade em estoque</label>

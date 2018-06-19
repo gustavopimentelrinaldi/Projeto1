@@ -5,6 +5,8 @@
 	$login = isset($_GET['login']) ? $_GET['login'] : 0;
 	$logout = isset($_GET['logout']) ? $_GET['logout'] : 0;
 	$create = isset($_GET['create']) ? $_GET['create'] : 0;
+	$update = isset($_GET['update']) ? $_GET['update'] : 0;
+	$delete = isset($_GET['delete']) ? $_GET['delete'] : 0;
 ?>
 <html lang="pt-BR">
 	<head>
@@ -57,7 +59,7 @@
 								echo '</span>';
 							 echo '</h3>';
 							echo "</div>";
-							echo '<a href="editaProduto.php" class="btn btn-sm btn-danger text-white">Modificar</a>';
+							echo '<a href="editaProduto.php?id=' . $row['id'] . '" class="btn btn-sm btn-danger text-white">Modificar</a>';
 						echo '</div>';
 					echo '</div>';
 				}
