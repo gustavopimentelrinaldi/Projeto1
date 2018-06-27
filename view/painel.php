@@ -1,7 +1,6 @@
 <?php
 	session_start();
 	require_once '../controller/connectionProduct.php';
-	include ('../controller/product_controller.php');
 	$login = isset($_GET['login']) ? $_GET['login'] : 0;
 	$logout = isset($_GET['logout']) ? $_GET['logout'] : 0;
 	$create = isset($_GET['create']) ? $_GET['create'] : 0;

@@ -23,7 +23,7 @@
     </div>
 	</nav>
 
-	<form class="form-signin mt-5 mb-5" method="post" action="../controller/cadastro_controller.php">
+	<form class="form-signin mt-5 mb-5" enctype="multipart/form-data" method="post" action="../controller/cadastro_controller.php">
     <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
     <h1 class="h3 mb-3 font-weight-normal">Cadastrar produto</h1>
     <label for="nome">Nome</label>
@@ -35,7 +35,7 @@
     <label for="estoque" class="mt-2">Quantidade em estoque</label>
     <input type="text" id="estoque" name="estoque" class="form-control" placeholder="Estoque">
     <label for="imagem" class="mt-2">Imagem</label>
-    <input type="file" id="imagem" name="imagem" class="form-control" placeholder="File">
+    <input type="file" id="imagem" name="imagem" class="form-control" placeholder="File" accept="image/*">
     <input id="add" name="add" class="btn btn-lg btn-primary btn-block mt-4" type="submit"></input>
     
     <p class="mt-5 mb-3 text-muted text-center">&copy; 2018</p>
