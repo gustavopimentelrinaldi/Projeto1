@@ -1,5 +1,5 @@
 ## autoPartsStore
-----
+---
 
 ## Sumário
 - CAPÍTULO I 	--
