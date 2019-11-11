@@ -351,3 +351,50 @@ Figura 04 – Diagrama de Classe.
 **17. Diagrama de Processo**
 
 Figura 05 – Diagrama de Processo
+
+CAPÍTULO IV
+
+ESPECIFICAÇÃO DE CASO DE USO
+
+UC001 – GERENCIAR PRODUTO
+1. Descrição
+Este caso de uso tem como finalidade a realização das consultas e
+modificações do produto dentro do sistema gerencial
+.
+2. Pré-condições
+ O ator precisa estar logado no sistema;
+ O ator deve ter acesso as informações.
+
+3. Fluxos
+3.1 Fluxo Principal – GERENCIAR PRODUTO
+FP01. O caso de uso se inicia quando o ator seleciona a opção login no menu
+principal.
+FP02. O sistema apresenta à tela de login com os campos do formulário,
+funcionario e senha.
+FP03. O ator preenche os campos para se autenticar no sistema.
+FP04. O sistema apresenta a tela principal do sistema gerencial onde tera o
+menu com as abas de cadastro e edição dos produtos.
+FP05. O caso de uso se encerra.
+
+3.2 Fluxos Alternativos
+FA3.2.1. Visualizar Produto Individualmente.
+FA3.2.1.1. O ator solicita a opção detalhes.
+FA3.2.1.2. O sistema traz à tela do produto selecionado.
+FA3.2.1.3. O ator seleciona a opção Voltar
+FA3.2.1.4. O sistema retorna a tela principal dos produtos.
+
+3.3 Fluxos de Exceção
+FE3.1. Tempo de sessão esgotado.
+
+FE3.1.1. O sistema redireciona o ator para a página inicial do sistema sem
+acesso.
+FE3.2. Dados inválidos.
+FE3.2.1. O sistema recarrega a página e exibe a mensagem MSG002.
+FE3.3. Dados obrigatórios não informados.
+FE3.3.1. O sistema recarrega a página e exibe a mensagem MSG001.
+
+4. Pós-condições
+
+5. Pontos de Extensão
+
+6. Pontos de Inclusão
